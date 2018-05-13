@@ -704,7 +704,7 @@ start all the components of your application with a single command.
 2. Build Docker images for the `blog` and `store` applications by running the following command in both directories:
 
     ```
-    ./mvnw package -Pprod docker:build
+    ./mvnw package -Pprod dockerfile:build
     ```
     
 3. Using your terminal, navigate to the root directory of your project, and create a `docker` directory. Then run the 
@@ -785,7 +785,7 @@ and [Minikube](https://github.com/kubernetes/minikube/releases)
 4. Create Docker images of the `blog` and `store` applications:
    
     ```bash
-    ./mvnw package -Pprod docker:build
+    ./mvnw package -Pprod dockerfile:build
     ```
       
 5. Using your terminal, navigate to the root directory of your project, and create a `kubernetes` directory. Then run the 
