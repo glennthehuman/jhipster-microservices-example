@@ -579,12 +579,11 @@ At this point, you should be able to verify everything works by starting:
 1. registry
 2. MongoDB
 * You can run MongoDB using Docker Compose with the following command in the `store` directory. You'll need to have Docker installed and running for this command to work.
-3. blog
-4. store
-
 ```bash
 docker-compose -f src/main/docker/mongodb.yml up
 ```
+3. blog
+4. store
 
 The [Docker Compose](#docker-compose) section shows how you can run all your services using Docker.
 
