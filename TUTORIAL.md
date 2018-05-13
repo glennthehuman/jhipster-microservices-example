@@ -164,7 +164,7 @@ In a [previous post](/blog/2017/06/15/build-microservices-architecture-spring-bo
 service discovery. JHipster Registry is a Eureka server, a Spring Cloud Config server, as well as an administration server. 
 It includes dashboards to monitor and manage your JHipster applications. 
 
-JHipster Registry starts on port 8761 by default.
+JHipster Registry starts on port 8761 by default. See <http://localhost:8761>.
 
 ![JHipster Registry](static/jhipster-registry.png)
 
