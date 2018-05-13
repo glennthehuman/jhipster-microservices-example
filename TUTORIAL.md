@@ -706,6 +706,16 @@ start all the components of your application with a single command.
     ```
     ./mvnw package -Pprod dockerfile:build
     ```
+    * If you get errors like: 
+    ```
+    INFO: I/O exception (java.io.IOException) caught when processing request to {}->unix://localhost:80: Permission denied
+    ```
+    Do:
+    ```
+    sudo gpasswd -a $USER docker
+    newgrp docker
+    ```
+    as instructed in https://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo
     
 3. Using your terminal, navigate to the root directory of your project, and create a `docker` directory. Then run the 
 [JHipster Docker Compose sub-generator](https://jhipster.github.io/docker-compose/#docker-compose-subgen) in it.
