@@ -717,6 +717,7 @@ start all the components of your application with a single command.
     ```
     as instructed in https://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo
     
+    [REMINDER: Don't forget the `store` directory.]
 3. Using your terminal, navigate to the root directory of your project, and create a `docker` directory. Then run the 
 [JHipster Docker Compose sub-generator](https://jhipster.github.io/docker-compose/#docker-compose-subgen) in it.
 
