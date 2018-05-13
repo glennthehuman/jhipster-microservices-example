@@ -8,8 +8,8 @@ import { ResponseWrapper, createRequestOption } from '../../shared';
 @Injectable()
 export class ProductService {
 
-    private resourceUrl = 'store/api/products';
-    private resourceSearchUrl = 'store/api/_search/products';
+    private resourceUrl = '/store/api/products';
+    private resourceSearchUrl = '/store/api/_search/products';
 
     constructor(private http: Http) { }
 
