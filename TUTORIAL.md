@@ -578,9 +578,9 @@ git commit -m "Add product entity"
 At this point, you should be able to verify everything works by starting:
 1. registry
 2. MongoDB
-2. blog
-3. store
-You can run MongoDB using Docker Compose with the following command in the `store` directory. You'll need to have Docker installed and running for this command to work.
+* You can run MongoDB using Docker Compose with the following command in the `store` directory. You'll need to have Docker installed and running for this command to work.
+3. blog
+4. store
 
 ```bash
 docker-compose -f src/main/docker/mongodb.yml up
