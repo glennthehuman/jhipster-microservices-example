@@ -786,7 +786,7 @@ Follow the steps below to use Kubernetes to deploy to a local cluster.
 
 1. Install [kubectl](https://kubernetes.io/docs/tasks/kubectl/install/), [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 and [Minikube](https://github.com/kubernetes/minikube/releases)
-* If Minikube freezes at `https://github.com/kubernetes/minikube/issues/2765` see https://github.com/kubernetes/minikube/issues/2765
+* If Minikube freezes at `Starting cluster components...` see https://github.com/kubernetes/minikube/issues/2765
 2. Start Minikube using `minikube start`
 3. To be able to work with the docker daemon, run the following command in your terminal:
 
